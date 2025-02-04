@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cc36b-f423-4df5-a344-7bea0e47ee16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkMonitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkMonitor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkingMonitorSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkingMonitorSettings.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/DemoCreate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/DemoCreate.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/Constants.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -90,7 +97,7 @@
       <workItem from="1735657502243" duration="1728000" />
       <workItem from="1738660272982" duration="7492000" />
       <workItem from="1738673991446" duration="161000" />
-      <workItem from="1738674171492" duration="6581000" />
+      <workItem from="1738674171492" duration="12687000" />
     </task>
     <servers />
   </component>

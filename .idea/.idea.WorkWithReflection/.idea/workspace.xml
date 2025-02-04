@@ -90,7 +90,7 @@
       <workItem from="1735657502243" duration="1728000" />
       <workItem from="1738660272982" duration="7492000" />
       <workItem from="1738673991446" duration="161000" />
-      <workItem from="1738674171492" duration="411000" />
+      <workItem from="1738674171492" duration="6581000" />
     </task>
     <servers />
   </component>
@@ -106,102 +106,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>22</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="689" />
-            </startOffsets>
-            <endOffsets>
-              <option value="738" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>23</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="747" />
-            </startOffsets>
-            <endOffsets>
-              <option value="814" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>24</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="823" />
-            </startOffsets>
-            <endOffsets>
-              <option value="894" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>26</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="904" />
-            </startOffsets>
-            <endOffsets>
-              <option value="959" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>28</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="969" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1105" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>31</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="1171" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1396" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs</url>
-          <line>35</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\ReflectionMonitoring\Demo\ObjectManipulator.cs" containingFunctionPresentation="Method 'Start'">
-            <startOffsets>
-              <option value="1414" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1435" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

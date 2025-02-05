@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundHornService : MonoBehaviour
+namespace ReflectionMonitoring.Demo.App
 {
-    // Start is called before the first frame update
-    void Start()
+    public class SoundHornService 
     {
-        
-    }
+        public SoundHornService()
+        {
+            
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void SoundHorn(string data)
+        {
+            Debug.Log($" Send horn data {data}");
+        }
     }
 }

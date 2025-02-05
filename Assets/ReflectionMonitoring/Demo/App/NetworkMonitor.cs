@@ -1,9 +1,12 @@
 using System;
-using UnityEngine;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text;
+using JetBrains.Annotations;
+using UnityEngine;
 
-namespace ReflectionMonitoring.Demo
+namespace ReflectionMonitoring.Demo.App
 {
     
     [Serializable]
@@ -31,11 +34,15 @@ namespace ReflectionMonitoring.Demo
     public static class NetworkMonitor
     {
         private static NetworkingMonitorSettings _networkingMonitorSettings = new NetworkingMonitorSettings();
-
+        [CanBeNull] private static Type _warningServiceType;
+        [CanBeNull] private static MethodInfo _warningServiceMethod;
+        private static List<object> _warningServiceParameterValue = new List<object>();
+        private static object _warningService;
+        
 
         public static void LoadFromConfiguration()
         {
-            string path = Application.dataPath + "/ReflectionMonitoring/Data/appsettings.json";
+            string path = Application.dataPath + Constants.FILE_PATH;
             if (File.Exists(path))
             {
                 StringBuilder builder = new StringBuilder();
@@ -52,27 +59,27 @@ namespace ReflectionMonitoring.Demo
 
                 string finalJsonConfigs = builder.ToString().TrimEnd();
                 Config config = JsonUtility.FromJson<Config>(finalJsonConfigs);
-                CreateServiceInstance(config.NetworkMonitorSettings.WarningService);
+                var service = CreateServiceInstance(config.NetworkMonitorSettings.WarningService);
+                
+                
                 Debug.Log($"<color=green> Configs is exists {finalJsonConfigs}</color>");
             }
         }
         
-        private static void CreateServiceInstance(string serviceName)
+        private static object CreateServiceInstance(string serviceName)
         {
-            Debug.Log($"Service Name is {serviceName}");
-            Type serviceType = Type.GetType(serviceName);
-        
-            if (serviceType != null)
-            {
-                object serviceInstance = Activator.CreateInstance(serviceType);
-                Debug.Log($"<color=cyan>Создан экземпляр сервиса: {serviceInstance}</color>");
-            }
-            else
-            {
-                Debug.LogError($"Сервис '{serviceName}' не найден.");
-            }
+            Debug.Log($"Service Name is {serviceName}Slerf");
+            
+            var assembly = Assembly.GetExecutingAssembly();
+            string typeName = "ReflectionMonitoring.Demo.App." + serviceName;
+            var type = assembly.CreateInstance(typeName, true, 
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic, null, 
+                null, null, null);
+            Debug.Log($"<color=cyan> Type is {type}</color>");
+            return type;
         }
+        
+        
     }
-    
     
 }

@@ -1,16 +1,17 @@
-using System;
-using ReflectionMonitoring.Demo;
 using UnityEngine;
 
-public class MonitoringApp : MonoBehaviour
+namespace ReflectionMonitoring.Demo.App
 {
-    private void Start()
+    public class MonitoringApp : MonoBehaviour
     {
-        NetworkMonitor.LoadFromConfiguration();
-    }
+        private void Start()
+        {
+            NetworkMonitor.LoadFromConfiguration();
+        }
 
-    private void LoadMonitoringCode()
-    {
+        private void LoadMonitoringCode()
+        {
         
+        }
     }
 }

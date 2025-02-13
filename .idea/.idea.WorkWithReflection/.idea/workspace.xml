@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b3cc36b-f423-4df5-a344-7bea0e47ee16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/Constants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/MailService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/MailService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/MonitoringApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/MonitoringApp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/SoundHornService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/SoundHornService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkMonitor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkMonitor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkingMonitorSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/NetworkingMonitorSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/ObjectManipulator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +70,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="24920">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="24920" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -104,6 +95,7 @@
       <workItem from="1738674171492" duration="13281000" />
       <workItem from="1738740338629" duration="854000" />
       <workItem from="1738741269454" duration="5529000" />
+      <workItem from="1738837305589" duration="1968000" />
     </task>
     <servers />
   </component>

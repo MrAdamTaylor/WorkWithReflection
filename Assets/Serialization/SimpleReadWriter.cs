@@ -43,7 +43,7 @@ public class SimpleReadWriter : MonoBehaviour
 
         try
         {
-            using (StreamWriter writer = new StreamWriter(filePath))
+            await using (StreamWriter writer = new StreamWriter(filePath))
             using (JsonTextWriter jsonWriter = new JsonTextWriter(writer))
             {
                 JsonSerializer serializer = new JsonSerializer();
@@ -68,13 +68,11 @@ public class SimpleReadWriter : MonoBehaviour
                 return null;
             }
 
-            using (StreamReader reader = new StreamReader(filePath))
-            using (JsonTextReader jsonReader = new JsonTextReader(reader))
-            {
-                JsonSerializer serializer = new JsonSerializer();
-                await UniTask.SwitchToThreadPool(); // Переключение на пул потоков
-                return serializer.Deserialize<WeatherForecast>(jsonReader);
-            }
+            using StreamReader reader = new StreamReader(filePath);
+            using JsonTextReader jsonReader = new JsonTextReader(reader);
+            JsonSerializer serializer = new JsonSerializer();
+            await UniTask.SwitchToThreadPool(); // Переключение на пул потоков
+            return serializer.Deserialize<WeatherForecast>(jsonReader);
         }
         catch (System.Exception e)
         {

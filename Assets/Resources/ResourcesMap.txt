@@ -1,0 +1,8 @@
+{
+  "NoAdsOffer80Window": {
+    "Path": "UI/NoAdsOffer80Window",
+    "AssetName": "NoAdsOffer80Window",
+    "AssetType": "UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "ExtraInfo": {}
+  }
+}

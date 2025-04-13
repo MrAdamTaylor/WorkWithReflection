@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cc36b-f423-4df5-a344-7bea0e47ee16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Knife.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Knife.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Knight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Knight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Weapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Reflection and ExpressionTree/Weapon.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WorkWithReflection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/DemoCreate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/DemoCreate.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +37,11 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4eae6449caa21e90c2ff2d63846343457a0e4192fb25892da80d78feb4774f/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Reflection and ExpressionTree/MiniDI/InjectAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Reflection and ExpressionTree/MiniDI/MiniDIContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Reflection and ExpressionTree/MiniDI/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ReflectionMonitoring/Demo/App/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Serialization/LoadConstants.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -122,6 +133,10 @@
       <workItem from="1741605360600" duration="2143000" />
       <workItem from="1741684471158" duration="1082000" />
       <workItem from="1741686672665" duration="3558000" />
+      <workItem from="1742137560229" duration="4605000" />
+      <workItem from="1743073081417" duration="2674000" />
+      <workItem from="1743769473391" duration="4694000" />
+      <workItem from="1744553918814" duration="5334000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing for serializations">
       <option name="closed" value="true" />
@@ -167,76 +182,5 @@
     <MESSAGE value="Async Create, Write and Read class" />
     <MESSAGE value="Load Unversioned Files" />
     <option name="LAST_COMMIT_MESSAGE" value="Load Unversioned Files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Serialization/BundleSystem/BundleLoader.cs</url>
-          <line>47</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\Serialization\BundleSystem\BundleLoader.cs" containingFunctionPresentation="Method 'GetMap'">
-            <startOffsets>
-              <option value="2242" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2267" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Serialization/BundleSystem/BundleLoader.cs</url>
-          <line>45</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\Serialization\BundleSystem\BundleLoader.cs" containingFunctionPresentation="Method 'GetMap'">
-            <startOffsets>
-              <option value="1985" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2229" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Serialization/BundleSystem/BundleLoader.cs</url>
-          <line>43</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\Serialization\BundleSystem\BundleLoader.cs" containingFunctionPresentation="Method 'GetMap'">
-            <startOffsets>
-              <option value="1861" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1910" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Serialization/BundleSystem/BundleLoader.cs</url>
-          <line>44</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\Serialization\BundleSystem\BundleLoader.cs" containingFunctionPresentation="Method 'GetMap'">
-            <startOffsets>
-              <option value="1923" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1972" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Serialization/BundleSystem/BundleLoader.cs</url>
-          <line>50</line>
-          <properties documentPath="D:\New_Repos\WorkWithReflection\Assets\Serialization\BundleSystem\BundleLoader.cs" containingFunctionPresentation="Method 'GetMap'">
-            <startOffsets>
-              <option value="2325" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2339" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
